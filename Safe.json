@@ -1,2 +1,3 @@
-local freshUrl = LIST_URL .. "?t=" .. os.time()
-return HttpService:GetAsync(freshUrl)
+{
+    "AuthorizedIDs": [2883192233, 1564093789, 55555555]
+}
