@@ -1,0 +1,2 @@
+local freshUrl = LIST_URL .. "?t=" .. os.time()
+return HttpService:GetAsync(freshUrl)
